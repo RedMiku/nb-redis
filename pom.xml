@@ -11,7 +11,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <version>${revision}</version>
-    <artifactId>nbchat-redis</artifactId>
+    <artifactId>nb-redis</artifactId>
     <description>RedisHelper兼容服务</description>
     <packaging>jar</packaging>
 
@@ -50,8 +50,8 @@
     </dependencies>
 
     <build>
-        <directory>${project.basedir}/nbchat-redis-service/target</directory>
-        <finalName>nbchat-redis-service-${revision}</finalName>
+        <directory>${project.basedir}/nb-redis-service/target</directory>
+        <finalName>nb-redis-service-${revision}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
