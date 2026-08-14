@@ -1,8 +1,8 @@
-# nbchat-redis
+# nb-redis
 
 ## 说明
 
-`nbchat-redis` 是一个独立的 Java 服务，目标是以最小可用方式兼容 `RedisHelper` 当前依赖的 Redis 能力。
+`nb-redis` 是一个独立的 Java 服务，目标是以最小可用方式兼容 `RedisHelper` 当前依赖的 Redis 能力。
 
 当前实现方式：
 
@@ -102,7 +102,7 @@ mvn spring-boot:run
 或打包后：
 
 ```bash
-java -jar nbchat-redis-service/target/nbchat-redis-service-2.0.2.jar
+java -jar nb-redis-service/target/nb-redis-service-2.0.2.jar
 ```
 
 ## 适用范围
