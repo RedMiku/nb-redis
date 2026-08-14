@@ -1,0 +1,2 @@
+# nb-redis
+为了去redis而写的一个本地部署的redis，模拟redis各种命令以及原装的redis连接方式
